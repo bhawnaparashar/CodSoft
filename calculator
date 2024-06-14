@@ -1,0 +1,19 @@
+print("This is a basic arithematic calculator")
+a=input("Enter first number =")
+b=input("Enter second number =")
+c=input("Enter arithematic operator =")
+print(a,c,b)
+if c == "+":
+    add= float(a) + float(b)
+    print("The sum is= ", add)
+elif c == "-":
+    diff= float(a)-float(b)
+    print("The difference is= ", diff)
+elif c == "*":
+    multi= float(a)*float(b)
+    print("The multiplication is= ", multi)
+elif c == "/":
+    div= float(a)/float(b)
+    print("The division is= ", div)
+else:
+    print("You entered wrong operator.")
